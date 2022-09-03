@@ -1,0 +1,34 @@
+.publication .publication-container{
+    width: 70rem;
+    padding: 0 1rem;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.publication ul{
+    list-style:none;
+    padding:0;
+    margin: 50px 20px 0px 35px;
+    border:0;
+}
+
+.publication li{
+    list-style: none;
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.paper-img{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.paper-name{
+    text-align: left;
+    width: 65%;
+    margin: 10px 0 5% 0px;
+}

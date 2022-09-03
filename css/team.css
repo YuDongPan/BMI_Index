@@ -1,0 +1,137 @@
+body {
+    font-family: "PT Serif",serif;
+    margin: 0;
+    font-size: 20pt;
+}
+
+.header-cotainer .labimg-box {
+    text-align: center;
+    margin-top: 15pt;
+}
+.header-cotainer .lab-img {
+    width: 600pt;
+}
+.tutor-content {
+    padding: 25pt 0;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+}
+
+.tutor-content .img-content img{
+    width: 120pt;
+    margin-right: 36pt;
+}
+.text-content .text-row {
+    display: flex;
+}
+.text-content .text-row:not(:first-child) {
+    margin-top: 16pt;
+}
+
+.text-content .tutor-name .left {
+    font-size: 16pt;
+    font-weight: bold;
+}
+.text-content .tutor-name .left .totur-honer {
+    font-size: 14pt;
+    font-weight: normal;
+}
+.text-row .left {
+    width: 350pt;
+}
+.text-row .right {
+    width: 206pt;
+}
+
+.text-row .right .web-link {
+    display: block;
+}
+
+.text-row .right .home-link {
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+    margin-top: 10pt;
+}
+
+/*.team-degree-content:nth-child(odd) {*/
+/*    background-color: #e5e5e5;*/
+/*}*/
+
+.degree-title {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 16pt;
+    padding-top: 16pt;
+    color: #222;
+    overflow: hidden;
+}
+
+.degree-title .title-content {
+    width: 690pt;
+    text-align: left;
+    margin: auto;
+}
+
+.degree-content {
+    display: flex;
+    font-size: 14pt;
+    justify-content: center;
+    padding-bottom: 10pt;
+    align-items: center;
+}
+
+.degree-content .member-img {
+    /*clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0% 38%);*/
+    clip-path: polygon(0% 0,75% 0,100% 50%,75% 100%,0% 100%);
+    width: 110pt;
+    height: 110pt;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.degree-content .menber-content {
+    margin-left: 36pt;
+    padding: 16pt 25pt 0 4pt;
+    border-top: 1px solid #ccc;
+}
+
+.degree-contact {
+    width: 462pt;
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menber-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menber-content .m-title {
+    font-weight: bold;
+}
+
+.menber-content .c-detail {
+    font-size: 12pt;
+}
+
+.interests .list {
+    margin-top: 16pt;
+}
+
+.menber-content .interests {
+    text-align: left;
+}
+
+.interests li {
+    margin-left: 15pt;
+    padding-left: 15pt;
+}
+
+.interests .m-title {
+    margin-top: 16pt;
+}

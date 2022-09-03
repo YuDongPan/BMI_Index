@@ -1,0 +1,47 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+span {
+    display: block;
+}
+body {
+    margin: 0;
+}
+.header-cotainer {
+    padding-top: 2rem;
+}
+.header-cotainer .line-content {
+    width: 70rem;
+    border-bottom: solid #987cb9 0.7rem;
+    margin: auto;
+}
+.header-cotainer .lab-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.lab-title .title-text {
+    width: 48rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    color: #002060;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
